@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SE Development</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- you can change the website icon by change the href link -->
+  <link rel="icon" type="image/png" href="./img/logo.png">
+
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="./css/coloring.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/txtformatting.css">
+  <link rel="stylesheet" type="text/css" href="./css/shadow.css">
+  <link rel="stylesheet" type="text/css" href="./css/loading.css">
+<!--  <link rel="stylesheet" type="text/css" href="./css/cursor.css">
+  <!-- css end -->
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="on">
+  <div class="loading" id="loading-box">
+    <div class="loading-item"><div class="loading-progress"></div></div>
+  </div>
+  <main class="main">
+    <!-- navbar -->
+    <div class="navbar">
+      <div class="container">
+        <div class="navbar-nav">
+          <div class="navbar-brand">
+            <!-- You can change it with Image if you want. -->
+            <img class="feature-img" src="https://media.discordapp.net/attachments/874320909136183316/949760761713008680/SE.png?width=100&height=100"></img>
+          </div>
+
+          <span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar(this)" class="fas fa-bars"></i></span>
+
+          <div class="navs" id="navs">
+            <!-- You can change the href value and the text value -->
+            <div class="navs-item notbtn"><a href="#commands" class="txt-uppercase">Commands</a></div>
+            <div class="navs-item notbtn"><a href="#docs" class="txt-uppercase">Docs</a></div>
+            <div class="navs-item notbtn"><a href="#support" class="txt-uppercase">Support</a></div>
+            <div class="navs-item notbtn"><a href="#purchase" class="txt-uppercase">Purchase</a></div>
+            <div class="navs-item"><a href="#joinus"><button class="btn txt-uppercase shadow-sm">Join Us</button></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar end -->		
+    <!-- jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="jumbotron-items">
+          <div class="jumbotron-item">
+            <span class="jumbotron-t">Why SE Development?</span>
+            <p class="jumbotron-d">Here at SE Development we offer custom made Discord Bots, customised to your liking and server. Our bots offer up to 50+ different features, commands and more.</p>
+            <div class="jumbotron-buttons">
+              <button class="btn" onclick="location.href='#features'">Features</button>
+              <button class="btn" onclick="location.href='#purchase'">Purchase</button>
+            </div>
+          </div>
+          <div class="jumbotron-item">
+            <img src="./img/img.svg" alt="image"> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jumbotron end -->
+    <span class="scroll-down"><i class="fa-solid fa-angle-down"></i></span>
+  </main>
+
+  <!-- features -->
+  <div class="features-box">
+    <h1 class="features-t" id="features">SE Development provide top quality custom discord bots, for all your neccessary needs; </p>Administration, fun community-enticing commands, and Much more!</h1>
+    <div class="container">
+      <div class="features">
+        <div class="feature">
+          <img class="feature-img" src="./img/feature1.png"></img>
+          <div class="feature-info">
+            <h2 class="feature-info-t">Administration</h2>
+            <p class="feature-info-d">20+ Administritive Commands to make sure your server is as safe as possible!</p>
+          </div>
+        </div>
+        <div class="feature">
+          <img class="feature-img" src="./img/feature2.svg"></img>
+          <div class="feature-info">
+            <h2 class="feature-info-t">Community</h2>
+            <p class="feature-info-d">Fun, Community Grasping commands and mini-games. Also has Suggestion Nodes for your community to supply you with ideas!</p>
+          </div>
+        </div>
+        <div class="feature">
+          <img class="feature-img" src="./img/feature3.svg"></img>
+          <div class="feature-info">
+            <h2 class="feature-info-t">Support</h2>
+            <p class="feature-info-d">Custom Ticketing system for all your support needs! Auto Responder for similar, repeated questions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- features end -->
+  
+  <!-- services -->
+  <div class="services-box">
+    <h1 class="services-t" id="services">Our Services are available in</h1>
+    <div class="container">
+      <div class="services">
+        <div class="service">
+          <span><i class="fas fa-server"></i> 1 servers</span>
+        </div>
+        <div class="service">
+          <span><i class="fas fa-users"></i> 2 users</span>
+        </div>
+        <div class="service">
+          <span><i class="fas fa-hashtag"></i> -- channels</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- services end -->
+
+  <!-- footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="footer-items">
+        <div class="footer-item">
+          <span>Copyright© 2022 sedevelopment.co.uk | All rights reserved</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer end -->
+  <script type="text/javascript" src="./js/script.js"></script>
+<!--  <script type="text/javascript" src="./js/cursor.js"></script>
+</body>
+</html>
